@@ -1,0 +1,23 @@
+def marks():
+    if d >= 90:
+        print("A*")
+    elif 80 <= d <= 89:
+        print("A")
+    elif 70 <= d <= 79:
+        print("B")
+    elif 60 <= d <= 69:
+        print("C")
+    elif 50 <= d <= 59:
+        print("D")
+    else:
+        print("Fail")
+
+
+a = int(input("Enter value for Maths: "))
+b = int(input("Enter value for Physics: "))
+c = int(input("Enter value for IT: "))
+d = (a + b + c) / 3
+
+print("Final grade: ")
+
+marks()
